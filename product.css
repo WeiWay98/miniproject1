@@ -1,0 +1,92 @@
+footer {
+    
+    margin-top: 30%;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles for the header and navigation */
+header {
+    color: white;
+    padding: 10px 0;
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Stussy_Logo.svg/1200px-Stussy_Logo.svg.png');
+    background-position: left;
+    background-size: 4%;
+    background-repeat: no-repeat;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    margin-left: 2%;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Product details section styles */
+.product-details {
+    display: flex;
+    margin: 20px;
+}
+
+.product-image {
+    flex: 1;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-info {
+    flex: 1;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.product-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    margin-bottom: 10px;
+}
+
+.product-info button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-info button:hover {
+    background-color: #555;
+}
+
+/* Product description section styles */
+.product-description {
+    padding: 20px;
+}
